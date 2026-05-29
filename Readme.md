@@ -1,4 +1,4 @@
-"# Int-Practica2-250953" 
+# Int-Practica2-250953 
 En esta práctica aprenderas a utilizar las herramientas de Git y GitHub para el control 
 de versiones de proyectos de desarrollo de software, aplicando principios de buenas prácticas 
 de Documenrtación, Desarrollo Colaborativo y Respaldo en la Nube del Proyecto Integrador.
@@ -34,7 +34,7 @@ correctamente los contenidos, para poder delimitar o hacer énfasis
 ####### Encabezado de Nivel 7 - *El estándar solo permite 6 niveles para títulos,  a partir
 del séptimo serán presentado como texto plano(sin estilo)*
 
-Separadores (SEPARATORS)
+### 2. Separadores (SEPARATORS)
 Si desea marcar una separación más visual de contenidos pordemos utilizarlos indicando tres caracteres de "-" continuos, en el maquetado.
 
 EJEMPLO:
@@ -42,7 +42,7 @@ EJEMPLO:
 Texto sección
 Después del separador.
 
-### 2. Párrafos (PARAGRPAHS)
+### 3. Párrafos (PARAGRPAHS)
 Son utilizados para por presentar grandes secciones de texto que describen detalladamente las secciones de la documentación del proyecto.
 
 EJEMPLO:
@@ -66,133 +66,118 @@ Este párrafo esta centrado usando la propiedad de alineación Este párrafo est
 
 Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación
 
-### 4. Texto Enfatizado (BOLD, ITALIC, BOLD/ITALIC)
-Si el texto que deseamos enfatizar se encuentra de un párrafo, podemos utilizar algunos trucos para ubicarlos en la documentación.
+### 4. Texto Enfatizado 
 
-Texto en Negrita (BOLD)
-Para poder poner el texto en negrita, este deberá ser encerrado entre dobles **
+- Texto en Negritas: Para resaltar texto importante que no sea un título
+por que esto inicialmente están en negrita, deberemos encerrar el texto
+deseando entre dobles asteríscos (**).
 
-EJEMPLO:
+Ejemplo: Este texto esta en **Negrita**.
 
-Texto Texto Texto Texto Texto Texto Texto Importante Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+- Texto en cursiva(Itálico): Para hacer referencia a texto utilizando el
+formato inclinado o itálico bastará con encerrar el texto deseado entre
+dos asteríscos simples(*).
 
-Texto en Cursiva (ITALIC)
-Algunas veces es necesario resaltar algunas secciones o textos en cursiva para que el lector detecte el texto importante, dentro del maquetado con el estándar Markdown lo podemos realizar ubicando el texto entre * (asteríscos).
+Ejemplo: Este *texto* estará *inclinado*.
 
-EJEMPLO:
+- Texto en Cursiva y Negrita: Para lograr esta estilización en la
+documentación basta con ajuntar ambas configuraciones, es decir
+encerramos el texto en unu triple asterísco (***).
 
-Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Cursivo Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+Ejemplo: ***Este texto esta en Negrita e Itálico.***
 
-Texto en Negrita y Cursiva (BOLD & ITALIC)
-De igual manera podemos unir ammbos estilos Negrita y Cursiva para resaltar los textos que consideremos importantes dentro de la documentación de nuestros proyectos de software, utilizando un triple * (asterísco).
+- Texto Tachado: En algunas ocasiones es necesario dar formato al texto
+con un efecto de como es incorrecto, generalmente esta idea se transmite
+por que el texto esta tachado, es decir con una línea que lo marca por la
+mitad. Para lograr este efecto tendremos que encerrar el texto entre una
+doble tílde de (~).
 
-EJEMPLO:
+Ejemplo: Se dice haya no ~haiga~.
+ 
+- Texto Subrayado: En este tipo de formato el texto queda sobre una línea imferior para detonar su relevancia,
+este formato no tiene una versión rápida en el estandár MARKDOWN, pero dado su similaridad a HTML podemos
+utilizar las etiquetas ``` <u> ``` y ``` </u> ```
 
-Texto Texto Texto Texto Texto Texto en Negrita y Cursiva Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Cursivo Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+Ejemplo: El <u>texto</u> debe estar <u>subrayado</u>.
 
-Subrayado (UNDERLINE)
-Algunas veces necesitaremos subraya texto dentro de la documentación, para ello, si bien markdown no tiene un atajo o codificación rápida podemos utilizar el estilo que usa el estándar de HTML usando el tag <ins> y cerrando con </ins>.
+- Texto Superíndice: En algunas ocasiones se requere dar formatos a fórmulas estadísticas que requiere
+potencias entre otras aplicaciones, podemos utilizar el tag de HTML ``` <sup> ``` y ``` </sup> ```.
 
-EJEMPLO:
+Ejemplo: Para elevar x al cuadrado tendríamos lo siguiente x<sup>2</sup>
 
-Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Cursivo Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Subrayado Texto.
+- Texto en Subíndice: En el caso de Química se utilizan subíndices para representar fórmulas, para ellos podemos
+utilizar el formato con la etiqueta HTML ``` <sub> ``` y ``` </sub> ```.
 
-Integradora-Practica03
-Continuamos con los comandos básicos de Git y Github para el maquetado de la documentación
+Ejemlo: La fórmula del agua es H<sub>2</sup>O.
 
-### 5. Cuadros para Código o Reseñas (BLOCKQUOTES)
-Estos elementos son utilizados para resaltar instrucciones específicas para la instalación, configuración y/o inicialzación o mostrar secciones de código fuente. Se maqueta iniciando el texto con un símbolo de mayor que (>)
+### 5. Listas
 
-EJEMPLO: Para listar las carpetas y archivos en desde una terminal de sistema operativo Windows debemos ingresar el comando:
+Cuando realizamos documentación utilizando el estandár de MARKDOWN, es común que tengamos que listar elementos,
+requisitos de hardware, requisitos de software, respetando
+**Desordenadas (Viñetas)** y **Mixtas (Viñetas y Números)**.
 
-C:/dir
+1. Listas ordenadas
+Estas deberán estar enumeradas con un número segi¿uido por un punto y espacio en blanco
+para comenzar con el listado.
+1. PC
+2. Wifi
+3. Módem
+4. Smartphone
+6. Smart TV
+5. Tablet
 
-Después oprimimos la tecla "Enter".
+Ejemplo:
+Para reiniciar el conteo se debe poner una línea de texto sin numeria.
 
-También podemos ingresar textos multilínea
+2. Listas Desordenadas 
+Estas listas no llevan un número, sino una viñeta (símbolo), y suele listar elementos que no
+requieren un orden específico.
 
-EJEMPLO:
+- Pan
+- Leche
+- Huevo
+- Azúcar
 
-Aquí se ingresan un conjunto de instrucciones para explicar al usuario, cómmo instalar el software que hemos diseñado.
+3. Listas Mixtas
+Son aquellas que se mezclan con ambos elementos
+- 3° A DSM
+    1. Juan
+    2. Pedro
+    3. Alejandra
+- 3° B DSM
+    1. Romina
+    2. Daniel
+- 3° A DSM
+    1. Yahir
+    2. Lizbeth
+    3. Jeovanny
+    4. Erick
 
-Y si deseamos inclur viñetas para enlistar pasos podemos utilizar el caracter - dentro del texto a documentar.
+    ### 6. Bloques de Código (CODE BLOCKS) o Citas (BLOCK QUOTES)
+    
+    Estos estilos de texto se utilizan para llamar la atención del lector, en pasos que son
+    importantes realizar alguna reseña o segmentar líneas de código que se deberám ingresar en 
+    una terminal de comandos o líneas de ejjecución.
 
-EJEMPLO: Pasos para Instalar la Base de Datos:
+    - Cuadro de Citas (BLOCK QUOTES)
+    Son cajas estilizadas en colores grises por defecto con un margen más claro.
 
-Descargar MySQL Server del Sitio Oficial
-Instalar el Sistema Gestor de Bases de Datos, definiendo el puerto y contraseña para el usuario root
-Descargamos el archivo de respaldo de la base de datos (.sql)
-Restauramos la Base de Datos usando el comando *mysql *
-C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root -p password < respaldo.sql
+    Ejemplo:
 
-### 6. Listas Ordenadas y Listas Desordenadas
-Si en nuestra documentación necesitamos incluir información en modo de lista, un elemento tras otro podemos hacerlo utilizando los número con un punto decimal si las deseamos ordenadas o un guión medio - si solo queremos una viñeta.
+    Para listar las carpetas y archivos desde una terminal de comandos en el sistema operativo de Windows debemos usar 
+    el siguiente comando:
+    <C:/dir
 
-EJEMPLO: Para crear tu primer repositorio en GitHub deberás: 5. Contar con cuenta de GitHub.
+    Después oprimimos la tecla *Enter*.
+    
+    También podemos usar texto multilínea.
 
-Dar click en el boton: *Nuevo Repositorio
-Asignarle un Nombre a tu repositorio, por ejemplo: practica03-3b
-Asignarle un nivel de privacidad entre
-Público: Si quieres que esté disponible para todos los usuarios.
-Privado: Si deseas que solo a quien tu decidas puedan y colaborar con tu proyecto.
-Definir si incluye un archivo de descripción llamado : README.md
-Definir si habrá exclusiones de archivo a través del archivo: .gitignore
-Guardar los cambios.
-Si queremos usar un orden que comientce en número específico debemos utilizar código HTML, usando los tags <ol> y <li>:
+    **EJEMPLO**
+    Pasos para instalar MySQL
+    > - Descargar el archivo instalador desde la página oficial www.mysql.com
+    > -Instalar el Servidor de Base de Datos
+    > -Definir el puerto y contraseña para el usuario ***root***
+    > -Inicializar el Servidor de Base de Datos usando el comando *mysql*
+    > -Conectarnos a la base de datos para verificar que se instaló correctamente.
 
-EJEMPLO:
-
-Quinto
-Sexto
-Séptimo
-### 7. Ligas (Hipervínculos)
-Las ligas son utilizadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el. Y se maquetan utilizanlo los corchetes [ ], inmediatamente despues pondrémos la liga de referencia entre parentesis ( )
-
-EJEMPLO: Mi buscador favorito es: Google.
-
-Pero si deseamos poner solo las ligas directas o un correo electrónico podemos utilizas los simbolos < >
-
-EJEMPLO:
-
-Documentación creada por: Juan Fernando Hernandez Lopez
-250953@utxicotepec.edu.mx
-
-http://www.utxicotepec.edu.mx
-
-### 8. Tablas (TABLES)
-Si la documentación lo requiere podemos presentar información en formato de tablas con filas y columnas, para maquetarlas podemos utiliziar el carácter | para delifitar las columnas y - para delimitar las filas.
-
-EJEMPLO:
-
-Encabezado 1	Encabezado 2	Encabezado 3	Encabezado 4
-Fila 1 Celda 1	Fila 1 Celda 2	Fila 1 Celda 3	Fila 1 Celda 4
-Fila 2 Celda 1	Fila 2 Celda 2	Fila 2 Celda 3	Fila 2 Celda 4
-Fila 3 Celda 1	Fila 3 Celda 2	Fila 3 Celda 3	Fila 3 Celda 4
-En caso de necesitar la fusión de celdas en columnas usaremos la propiedad colspan del tag <td> y en el caso de necesitar la fusión de filas utilizaremos la propiedad rowspan .
-
-EJEMPLO:
-
-Encabezado 1	Encabezado 2	Encabezado 3	Encabezado 4
-Fila 1 Celda 1	Fila 1 Celda 2	Fila 1 Celda 3	Fila 1 Celda 4
-Fila 2 Celda 1	Fila 2 Celda 2	Fila 2 Celda 3		
-Fila 3 Celda 1	Fila 3 Celda 2	Fila 3 Celda 3	Fila 3 Celda 4
-Fila 4 Celda 2	Fila 4 Celda 3	Fila 4 Celda 4
-Fila 5 Celda 2	Fila 5 Celda 3	Fila 5 Celda 4
-Fila 6 Celda 1	Fila 6 Celda 2	Fila 6 Celda 3	Fila 6 Celda 4
-Dado que en el ejemplo pasado usando solo markdown no se puede realizar la fusión de filas debemos utilizar el estandar de HTML, usando los tags: <th> para los encabezados, <tr> para las filas y para las celdas, y en ellos utilizar la propiedad de colspan y rowspan
-
-EJEMPLO:
-
-Encabezado 1	Encabezado 2	Encabezado 3	Encabezado 4
-Fila 1 Celda 1	Fila 1 Celda 2	Fila 1 Celda 3	Fila 1 Celda 4
-Fila 2 Celda 1	Fila 2 Celda 2
-Fila 3 Celda 1	Fila 3 Celda 2	Fila 3 Celda 3	Fila 3 Celda 4
-Fila 4 Celda 2	Fila 4 Celda 3	Fila 4 Celda 4
-Fila 5 Celda 2	Fila 5 Celda 3	Fila 5 Celda 4
-Fila 6 Celda 1	Fila 6 Celda 2	Fila 6 Celda 3	Fila 6 Celda 4
-### 9. Imágenes
-Si la documentación requiere de incorporar imágenes, equemas , modelos, fotografías, o cualquier representación gráfica, utilizaremos la estuctura de la ligas, maquetanto el nombore de la imagen entre corchetes con un signo de admiración de cierre y la liga de referencia a la imagen usando parentesis.
-
-EJEMPLO:
-
-Picachu
+    - Bloques de código
