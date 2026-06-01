@@ -180,4 +180,73 @@ Son aquellas que se mezclan con ambos elementos
     > -Inicializar el Servidor de Base de Datos usando el comando *mysql*
     > -Conectarnos a la base de datos para verificar que se instaló correctamente.
 
-    - Bloques de código
+    - Bloques de código 
+
+    Es común en la documentación del proyecto de software demos  al usuario un par de 
+    instrucciones de como instalar, configurar, desplegar y testear (pruebas), nuestro producto
+    desarrollado. Por tal motivo estándar Markdown nos permite enfatizar estas instrucciones,
+    simulando estar en una terminal del Sistema Operativo(SO)para delimitar este código basta
+    encerrarlo con triples carácteres de bacltic (acento a tilde ``` ' ```)
+
+    Para clonar el proyecto ingresa la siguiente instrucción 
+    
+    C:\Users\PC-20\Desktop>git clone https://github.com/250953-cpu/Int-Practica2-250953.git
+
+    A diferencia de los bloques de citas,la tipografia y significado cambian.
+
+    ### 7. Tablas 
+    En caso de que necesitemos estructurar datos  o información relevante
+    para la documentación podemos utilizar el formato de tablas, para lo que tenemos que considerar la estructura de la base de una tabla;
+
+    - Usa | para delimitar las columnas
+    - Usa --- para separar las filas del encabezado 
+
+    Ejemplo:
+
+    |Título 1 |Título 2 |Título 3 |
+    |--- |--- |--- |--- |
+    |Fila 1, Celda 1 |Fila 2, Celda 2 |Fila 3, Celda 3 |Fila 4, Celda 4 |
+    |Fila 1, Celda 1 |Fila 2, Celda 2 |Fila 3, Celda 3 |Fila 4, Celda 4 |
+    |Fila 1, Celda 1 |Fila 2, Celda 2 |Fila 3, Celda 3 |Fila 4, Celda 4 |
+
+
+    ### 8. Hipervínculos (Links)
+
+    Para poder hacer referencia a documentos internos o externos dentro del repositorio, debemos respetar la siguiente estructura:
+
+    ...
+    [Texto que el usuario leera] (URL a donde te dirigirá) "Texto que aparecerá cuando pongas el cursor sobre la liga"
+    ...
+    
+    Ejemplo:
+
+    - Ligas externas:
+    [Google](http://google.com)
+
+    ### 9. Imágenes
+
+    El estándar de markdown nos permite incrustar imágenes dentro de la documentación lo que nos permitira poner logotipos, capturas de pantalla o cualquier archivo gráfico importante .
+
+    La estructura varia un poco de las residencias de hipervínculos, siento:
+
+    ```
+    ![Texto que el usuario leerá](URL donde se encuentra la imagen)
+    ```
+
+    Ejemplo:
+
+    ![Si tu te vas - Charles Ans](./imagenes/image.png)
+
+    Es importante entender que la resolución de la imagen será original del archivo
+
+    ***Tip PRO***
+
+    Si el tamaño de la imagen no se ajusta a lo que deseas para tu documento, lo más recomendable es ajustar el tamaño del archivo original con algún software de procesador de imagenes como: PaInt, Illustraitor, Int o Photoshop, pero si quieres modificarlos desde el código, el estándar no tiene parámetros definidos por lo que necesitaremos hechar líneas de código HTML.
+
+    Cambiando la estructura con la etiqueta ```<img>```
+
+    Ejemplo:
+
+    <img src=".imagenes/image.png" width="350" height="350">
+
+ 
