@@ -37,109 +37,92 @@ del séptimo serán presentado como texto plano(sin estilo)*
 ### 2. Separadores (SEPARATORS)
 Si desea marcar una separación más visual de contenidos pordemos utilizarlos indicando tres caracteres de "-" continuos, en el maquetado.
 
-EJEMPLO:
+**EJEMPLO:**
 
-Texto sección
-Después del separador.
+#### Título de la sección
+---
+Texto después del separador
+
 
 ### 3. Párrafos (PARAGRPAHS)
-Son utilizados para por presentar grandes secciones de texto que describen detalladamente las secciones de la documentación del proyecto.
+Son utilizados para por presentar grandes secciones de texto que describen detalladamente las secciones de la documentación, detallan procesos, explican código o cotexto teórico. 
 
 EJEMPLO:
 
-Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1.
+Párrafo 1:  Este texto es del párrafo 1 este texto es del párrafo 1  este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1 este texto es del párrafo 1.
 
-Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 
-Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 
-Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2Este texto pertenece al párrafo 2 
-Este texto pertenece al párrafo 2
+Párrafo 2: Este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2 este texto es del párrafo 2, el estándar de markdown distingue los párrafos con un doble salto de línea de texto, si no se desea alinear, es decir estará alineado a la izquierda por defecto.
 
-Lo que en una página utilizariamos usando la etiqueta <P>.
+En caso de que necesitemos alinear el párrafo a **izquierda**, **derecha**, **centrado** o **justificado**, deberemos utilizar una etiqueta ```<p>``` con la proipiedad align y la dirección deseada. 
 
-También podemos aplicar estilos básicos de alineación:
+<p align="left">Párrafo alineado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierdapárrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda párrafo alienado a la izquierda.</p>
 
-Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto Este párrafo está alineado a la izquierda por defecto
+<p align="center"> Párrafo alienado al centro párrafo alieando al centro párrafo alieando al centro párrafo alieando al centro párrafo alieando al centro párrafo alieando al centropárrafo alieando al centropárrafo alieando al centropárrafo alieando al centro párrafo alieando al centro párrafo alieando al centropárrafo alieando al centropárrafo alieando al centro párrafo alieando al centro párrafo alieando al centro párrafo alieando al centropárrafo alieando al centropárrafo alieando al centro párrafo alieando al centropárrafo alieando al centro. </p>
 
-Este párrafo está alineado a la derecha utilizando la propiedad de alineación Este párrafo está alineado a la derecha utilizando la propiedad de alineación Este párrafo está alineado a la derecha utilizando la propiedad de alineación Este párrafo está alineado a la derecha utilizando la propiedad de alineación Este párrafo está alineado a la derecha utilizando la propiedad de alineación
+<p align="right"> Párrafo alienado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha párrafo alineado a la derecha.
 
-Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación
-
-Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación
+<p align="justify"> Párrafo justificado párrafo con texto justificado párrafo con texto justificado párrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificado párrafo con texto justificado párrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificado párrafo con texto justificado párrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificado párrafo con texto justificado párrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificadopárrafo con texto justificado párrafo con texto justificado.
 
 ### 4. Texto Enfatizado 
 
-- Texto en Negritas: Para resaltar texto importante que no sea un título
-por que esto inicialmente están en negrita, deberemos encerrar el texto
-deseando entre dobles asteríscos (**).
+- Texto en Negritas: Para resaltar texto importante que no sea un título por questo incialmente están en negrita, deberemo encerrar el texto desdeado entre dobles asteríscos (**).
 
-Ejemplo: Este texto esta en **Negrita**.
+Ejemplo:   Este texto esta en **negrita**.
 
-- Texto en cursiva(Itálico): Para hacer referencia a texto utilizando el
-formato inclinado o itálico bastará con encerrar el texto deseado entre
-dos asteríscos simples(*).
+- Texto en Cursiva (Itálico): Para hacer referencia a texto utilzando el fomato inclinado o itálico bastará con encerrar el texto deseado entre dos asteríscos simples (*).
 
-Ejemplo: Este *texto* estará *inclinado*.
+Ejemplo:  Este *texto* estará *inclinado*.
 
-- Texto en Cursiva y Negrita: Para lograr esta estilización en la
-documentación basta con ajuntar ambas configuraciones, es decir
-encerramos el texto en unu triple asterísco (***).
+- Texto en Cursiva y Negita:  Para lograr esta estilización en la documentación basta con juntar ambas configuraciones , es decir encerramos el texto en un triple asterísco (***)
 
-Ejemplo: ***Este texto esta en Negrita e Itálico.***
+Ejemplo:   ***Este texto esta Negrito e Itálico.***
 
-- Texto Tachado: En algunas ocasiones es necesario dar formato al texto
-con un efecto de como es incorrecto, generalmente esta idea se transmite
-por que el texto esta tachado, es decir con una línea que lo marca por la
-mitad. Para lograr este efecto tendremos que encerrar el texto entre una
-doble tílde de (~).
+- Texto Tachado: En algunas ocaciones es necesario dar formato al texto con un efecto de como es incorrecto, generalmente esta idea se transmite por que el texto esta tachado, es decir con una línea que lo marca por la mitad. Para lograr este efecto tendremos que encerrar el texto entre una doble tílde de (~).
 
-Ejemplo: Se dice haya no ~haiga~.
- 
-- Texto Subrayado: En este tipo de formato el texto queda sobre una línea imferior para detonar su relevancia,
-este formato no tiene una versión rápida en el estandár MARKDOWN, pero dado su similaridad a HTML podemos
-utilizar las etiquetas ``` <u> ``` y ``` </u> ```
+Ejemplo: Se dice haya no ~~haiga~~. 
+
+- Texto Subrayado: En este tipo de formato el texto queda sobre una línea inferior para denotar su relevancia, este formato no tiene un versión rápida en el estándar MARKDOWN, pero dado su similiaridad a HTML podemos utilizar las etiquetas ``` <u> ``` y ``` </u> ```.
 
 Ejemplo: El <u>texto</u> debe estar <u>subrayado</u>.
 
-- Texto Superíndice: En algunas ocasiones se requere dar formatos a fórmulas estadísticas que requiere
-potencias entre otras aplicaciones, podemos utilizar el tag de HTML ``` <sup> ``` y ``` </sup> ```.
+- Texto en Superíndice:  En algunas ocaciones se requiere dar formato a fórmulas estadísticas que requiere potencias entre otras aplicaciones, podemos utilizar el tag de HTML ``` <sup> ``` y ``` </sup>``` para delimitar el formato.
 
-Ejemplo: Para elevar x al cuadrado tendríamos lo siguiente x<sup>2</sup>
+Ejemplo: Para elevar x al cuadrado tendriamos lo siguiente  x<sup>2</sup>
 
-- Texto en Subíndice: En el caso de Química se utilizan subíndices para representar fórmulas, para ellos podemos
-utilizar el formato con la etiqueta HTML ``` <sub> ``` y ``` </sub> ```.
+- Texto en Subíndice:  En el caso de Química se utilizan subíndices para representar formulas, para ello podemos utilizar el formato de texto con la etiqueta HTML ``` <sub> ``` y ``` </sub>```.
 
-Ejemlo: La fórmula del agua es H<sub>2</sup>O.
+Ejemplo: La formula del Agua es  H<sub>2</sub>O.
 
 ### 5. Listas
 
-Cuando realizamos documentación utilizando el estandár de MARKDOWN, es común que tengamos que listar elementos,
-requisitos de hardware, requisitos de software, respetando
-**Desordenadas (Viñetas)** y **Mixtas (Viñetas y Números)**.
+Cuando relizamos documentación utilizando el estándar de MARKDOWN, es común que tengamos que listar elementos, requisitos de hardware, requisitos de software o enumerar pasos de cómo el software debe ser instalado paso a paso, por eso debemos saber como crear listas de las cuales hay de 3 tipos :  **Ordenadas (Números)** , **Desordenadas (Viñetas)** y **Mixtas (Viñetas y Números)**.
 
-1. Listas ordenadas
-Estas deberán estar enumeradas con un número segi¿uido por un punto y espacio en blanco
-para comenzar con el listado.
-1. PC
+1. Listas Ordenadas
+
+Estas deberán estar enumeradas con un número seguido por un punto y un espacio en blaco para comenzar con el listado. 
+
+1. PC 
 2. Wifi
-3. Módem
+3. Modém
 4. Smartphone
 6. Smart TV
-5. Tablet
+5. Tablet 
 
-Ejemplo:
-Para reiniciar el conteo se debe poner una línea de texto sin numeria.
+Para reiniciar el conteno se debe poner una línea de texto sin numeralia. 
 
-2. Listas Desordenadas 
-Estas listas no llevan un número, sino una viñeta (símbolo), y suele listar elementos que no
-requieren un orden específico.
+2. Listas Desordenadas
+
+Estas listas no llevan un número , sino una viñeta (simbolo), y suele listar elementos que no requieren un orden específico.
 
 - Pan
 - Leche
 - Huevo
-- Azúcar
+- Azucar
 
 3. Listas Mixtas
-Son aquellas que se mezclan con ambos elementos
+
+Son aquellas que mezcla ambos elementos
+
 - 3° A DSM
     1. Juan
     2. Pedro
@@ -147,106 +130,152 @@ Son aquellas que se mezclan con ambos elementos
 - 3° B DSM
     1. Romina
     2. Daniel
-- 3° A DSM
+- 3° C DSM
     1. Yahir
-    2. Lizbeth
-    3. Jeovanny
+    2. Liseth
+    3. Jeovany
     4. Erick
+
 
     ### 6. Bloques de Código (CODE BLOCKS) o Citas (BLOCK QUOTES)
     
-    Estos estilos de texto se utilizan para llamar la atención del lector, en pasos que son
-    importantes realizar alguna reseña o segmentar líneas de código que se deberám ingresar en 
-    una terminal de comandos o líneas de ejjecución.
-
-    - Cuadro de Citas (BLOCK QUOTES)
-    Son cajas estilizadas en colores grises por defecto con un margen más claro.
-
-    Ejemplo:
-
-    Para listar las carpetas y archivos desde una terminal de comandos en el sistema operativo de Windows debemos usar 
-    el siguiente comando:
-    <C:/dir
-
-    Después oprimimos la tecla *Enter*.
-    
-    También podemos usar texto multilínea.
-
-    **EJEMPLO**
-    Pasos para instalar MySQL
-    > - Descargar el archivo instalador desde la página oficial www.mysql.com
-    > -Instalar el Servidor de Base de Datos
-    > -Definir el puerto y contraseña para el usuario ***root***
-    > -Inicializar el Servidor de Base de Datos usando el comando *mysql*
-    > -Conectarnos a la base de datos para verificar que se instaló correctamente.
-
-    - Bloques de código 
-
-    Es común en la documentación del proyecto de software demos  al usuario un par de 
-    instrucciones de como instalar, configurar, desplegar y testear (pruebas), nuestro producto
-    desarrollado. Por tal motivo estándar Markdown nos permite enfatizar estas instrucciones,
-    simulando estar en una terminal del Sistema Operativo(SO)para delimitar este código basta
-    encerrarlo con triples carácteres de bacltic (acento a tilde ``` ' ```)
-
-    Para clonar el proyecto ingresa la siguiente instrucción 
-    
-    C:\Users\PC-20\Desktop>git clone https://github.com/250953-cpu/Int-Practica2-250953.git
-
-    A diferencia de los bloques de citas,la tipografia y significado cambian.
-
-    ### 7. Tablas 
-    En caso de que necesitemos estructurar datos  o información relevante
-    para la documentación podemos utilizar el formato de tablas, para lo que tenemos que considerar la estructura de la base de una tabla;
-
-    - Usa | para delimitar las columnas
-    - Usa --- para separar las filas del encabezado 
-
-    Ejemplo:
-
-    |Título 1 |Título 2 |Título 3 |
-    |--- |--- |--- |--- |
-    |Fila 1, Celda 1 |Fila 2, Celda 2 |Fila 3, Celda 3 |Fila 4, Celda 4 |
-    |Fila 1, Celda 1 |Fila 2, Celda 2 |Fila 3, Celda 3 |Fila 4, Celda 4 |
-    |Fila 1, Celda 1 |Fila 2, Celda 2 |Fila 3, Celda 3 |Fila 4, Celda 4 |
+    Estos estilos de texto se utilizan para llamar la atención del lector, en pasos que son importantes , realizar alguna reseña o  segmentar líneas de código que se deberán ingresar en una terminal de comandos o líneas de ejecución. 
 
 
-    ### 8. Hipervínculos (Links)
+- Cuadro de Citas (Block Quotes)
+Son cajas estilizadas en colores grises por defecto con un margén más claro. 
 
-    Para poder hacer referencia a documentos internos o externos dentro del repositorio, debemos respetar la siguiente estructura:
+Ejemplo:
 
-    ...
-    [Texto que el usuario leera] (URL a donde te dirigirá) "Texto que aparecerá cuando pongas el cursor sobre la liga"
-    ...
-    
-    Ejemplo:
+Para listar las carpetas y archivos desde una terminal de comandos en el sistema operativo de Windows debemos usar el comando: 
 
-    - Ligas externas:
-    [Google](http://google.com)
+> C:/dir
 
-    ### 9. Imágenes
+Después oprimimos la tecla *Enter*.
 
-    El estándar de markdown nos permite incrustar imágenes dentro de la documentación lo que nos permitira poner logotipos, capturas de pantalla o cualquier archivo gráfico importante .
+Tambien podemo usar texto multilínea
 
-    La estructura varia un poco de las residencias de hipervínculos, siento:
+Ejemplo:
 
-    ```
-    ![Texto que el usuario leerá](URL donde se encuentra la imagen)
-    ```
+Pasos para instalar MySQL
+> - Descargar el archivo instalador desde la página oficial  www.mysql.com
+> - Instalar el Servidor de Bases de Datos
+> - Definir el puerto y contraseña para el usuario **root**
+> - Inicializar el serviro de bases de datos
+> - Conectarnos a la base datos para verificar que se instaló correctamente.
 
-    Ejemplo:
 
-    ![Si tu te vas - Charles Ans](./imagenes/image.png)
+- Bloques de código
 
-    Es importante entender que la resolución de la imagen será original del archivo
+Es común que en la documentación del proyecto de software demos al usuario un par de instrucciones de como instalar , configurar , desplegar y testear (pruebas), nuestro producto desarrollado. Por tal motivo el estándar markdown nos permite enfatizar estas instrucciones, simulando estar en una terminal de sistema operativo, para delimitar este código basta encerrarlo un triples carácteres de bacltic (acento o tilde inversa ``` ` ```)
 
-    ***Tip PRO***
+Ejemplo: 
 
-    Si el tamaño de la imagen no se ajusta a lo que deseas para tu documento, lo más recomendable es ajustar el tamaño del archivo original con algún software de procesador de imagenes como: PaInt, Illustraitor, Int o Photoshop, pero si quieres modificarlos desde el código, el estándar no tiene parámetros definidos por lo que necesitaremos hechar líneas de código HTML.
+Para clonar el proyecto ingresa la siguiente instrucción
+```
+C:\Users\PC-DOCENTE\Desktop>git clone https://github.com/250953-cpu/Int-Practica2-250953.git
+```
 
-    Cambiando la estructura con la etiqueta ```<img>```
+A diferencia de los bloques de citas, la tipografía y significado asociado cambian.
 
-    Ejemplo:
 
-    <img src=".imagenes/image.png" width="350" height="350">
+### 7. Tablas
 
- 
+En caso de que necesitemos estructurar datos o información relevante para la documentación podremos utilizar el formato de tablas , para lo que tenemos considerar la estructura base de una tabla:
+
+- Usa | para delimitas las columnas
+- Usa --- para separar las filas del ecabezado
+
+Ejemplo :
+
+|Título 1 | Título 2 | Título 3 | Título 4 |
+|---|---|---|---|
+|Fila 1, Celda 1|Fila 1, Celda 2|Fila 1, Celda 3|Fila 1, Celda 4|
+|Fila 2, Celda 1|Fila 2, Celda 2|Fila 2, Celda 3|Fila 2, Celda 4|
+|Fila 3, Celda 1|Fila 3, Celda 2|Fila 3, Celda 3|Fila 3, Celda 4|
+
+   
+
+### 8. Hipervínculos (Links)
+
+Para poder hacer referencias a documentos internos o externos dentro del repositorio, debemos respestar la siguiente estrucutura
+
+```
+[Texto que el usuario leera](url a donde te dirigirá) "texto que aparecerá cuando pongas el cursor sobre la liga"
+```
+
+Ejemplo
+
+- Ligas externas
+[Google](http://google.com)
+
+- Ligas internas
+[Acera del Autor](./aboutme.md "Cónoceme más!")
+
+
+### 9. Imágenes 
+
+El estándar de markdown nos permite incrustrar imágenes dentro de nuestra documentación lo que nos permitirá poner logotipos, capturas de pantalla o cualquier archivo gráfico importante.
+
+
+La estructura varia un poco de las referencias de hipervínculos, siendo: 
+```
+![Texto que el usuario leera](url a donde se encuentra la imágen) 
+```
+
+Ejemplo:
+![!\[image\]imagenes/image.png](imagenes/image.png)
+
+Es importante comprender que la resolución de la imagén será la original del archivo.
+
+
+**Tip PRO:**
+Si el tamaño de la imagén no se ajusta a lo que deseas para tu documento, lo más recomendable es ajustar el tamaño del archivo original con algún software procesador de imágenes cómo : Paint, Illustrator , Ink o Photoshop. pero si quiere modificarlo desde el código, el estandár no tiene parametros definidos por lo que necesitaremos echar líneas de código HTML 
+
+Cambiando la estructura de maquetado por la etiqueta ``` <image> ```
+
+
+Ejemplo:
+
+<img src="imagenes/image.png" width="100" heigth="50">
+
+
+### 10. Notas al pie
+
+Si nuestra documentación requiere ubicar notas de importancia o relevancia posterior podemos usar notas al pie de manera dinámica
+
+Nota al pie 1 [^first].
+
+Nota al pie 2 [^second].
+
+Referencias al pie dentro de un párrafo ^[Nota interna] extenso dentro de nuestra documentación
+
+Segunda referencia a la nota 2[^second].
+
+[^first]: Nota al pie **pueder ser formateada**
+
+    y tener multiples líneas de párrafo
+
+[^second]: Texto de la segunda nota al pie.
+
+### 11. Abreviaciones
+
+Las abreviaciones nos permiten definir el significado de siglas o términos técnicos dentro del documento. Al pasar el cursor sobre la palabra, se mostrará su definición.
+
+Este es un ejemplo de abreviatura HTML.
+
+Esto también lo convierte a "HTML", pero conserva las entradas parciales intactas, como "xxxHTMLyyy", etc.
+
+*[HTML]: Lenguaje de Marcado de Hipertexto
+
+### Contenedores personalizados
+
+Los contenedores personalizados nos permiten destacae bloques de información importante dentro de la documentación, como advertencias, notas o tips.
+
+La sintaxis estándar con markdown-it es la siguiente:
+Los contenedores personalizados nos permiten destacae bloques de información importante dentro de la documentación, como advertencias, notas o tips.
+
+La sintaxis estándar con markdown-it es la siguiente:
+::: advertencia
+*¡Aquí hay dragones!*
+:::
